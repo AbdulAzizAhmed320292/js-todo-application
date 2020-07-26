@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+
+<div class="main">
+
+    <h1 style="color: white;" class="heading"><i class="fa fa-list-alt" aria-hidden="true"></i> My Todo Application</h1>
+
+
+    <div class="input-here">
+        <input placeholder="Enter todo" required type="text" name="todo" id="todo-item"> <i class="fa fa-user fa-lg"></i> 
+        <button style="cursor: pointer;" class="add-todo-btn" onClick="addTodo()"><i class="fa fa-list-ul" aria-hidden="true"></i> Add todo </button>
+        <button style="cursor: pointer;" id="delete-btn" onClick="Delete_All()"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete All</button>
+    </div>
+
+
+   <div>
+       <ul id="list">
+
+       </ul>
+       
+   </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+<script src="app.js"></script>
+</html>
